@@ -9,3 +9,7 @@ button.addEventListener('click', (e) => {
     e.preventDefault();
     console.log('submitting with ' + fname.value);
 });
+
+button.addEventListener('mouseover', (e) => {
+    console.log('hovering over button');
+});
